@@ -13,6 +13,7 @@ Desarrollar un sistema de riego automático y la alarma de incendios utilizando 
 ### Objetivos específicos.
 
 Comprender todos los conceptos más básicos de programación orientada a objetos y el uso de las librerías.
+
 Comprender, seleccionar y aplicar los conceptos fundamentales aprendidos en el lenguaje de programación en Python.
 
 ### 3.	ESTADO DEL ARTE
