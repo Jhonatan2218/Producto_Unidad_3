@@ -51,6 +51,33 @@ General Purpose Input Output (GPIO) es un sistema de entrada y salida de propós
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
+Se importarán las librerías, se definirán los pins de salida y definiremos el significado de las variables. Esto se hará para las dos clases, la alarma de incendios y el sistema de riego automático. 
+
+
+#### Siste de alarma de incendios
+
+Se creará la clase y definiremos las funciones que vamos a utilizar en el programa principal.
+
+
+En la línea número 55 se creará la función alarma que servirá para simular el incendio, en cuando debe prender la alarma. Se utilizará operaciones ya antes analizadas para dar dicho resulto de forma efectiva.
+
+Se creará la función imprimir la cual dará la opción de apagar la alarma siempre y cuando se haya corregido los accidentes.
+
+
+#### Siste de riego automático
+
+En el sistema de riego automático de igual manera se crearán las funciones necesarias.
+
+En esta clase cambiaremos unas variables, las negaremos ya que en la resolución por mapas de karnaugh las variables son negadas.
+
+Después al igual que el sistema de alarma se creará el que hacer para apagar el sistema de riego y los focos que demuestres que se está realizando el riego.
+
+
+#### Programa principal
+En la función principal dejaremos a escoger cual sistema desea ejecutar, el de riego automático o la alarma de incendios, dependiendo cual escoja realizara lo correspondiente.
+
+
+
 
 ### 8. CONCLUSIONES
 
