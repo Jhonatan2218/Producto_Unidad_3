@@ -101,6 +101,12 @@ En la función principal dejaremos a escoger cual sistema desea ejecutar, el de 
 
 ### 11. BIBLIOGRAFÍA
 
+[1] N. F. K. K. I. M. M. I. ,.-C. K. Rahardhita Widyatra Sudibyo, «A TCP Fairness Control Method for Two-Host Concurrent Communications in,» Okayama University, 2019. [En línea]. Available: https://ieeexplore.ieee.org/document/8726907. [Último acceso: 06 09 2020].
+
+[2] D. A. J. Ruby Roselin A, «Smart Agro System Using Wireless Sensor Networks,» Applied Electronics, Master of Engineering SSN College of Engineering , julio 2017. [En línea]. Available: https://ieeexplore.ieee.org/abstract/document/8250751. [Último acceso: 29 08 2020].
+
+[3] I. d. M.-V. R.-G. S.-. A. Miguel F. Arriaga-Gomez, «A comparative survey on supervised classifiers for face recognition,» Universidad Politecnica de Madrid , 2014. [En línea]. Available: https://ieeexplore.ieee.org/document/6987036. [Último acceso: 29 08 2020].
+
 
 ### 12. ANEXOS
 
