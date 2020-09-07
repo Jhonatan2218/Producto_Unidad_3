@@ -60,13 +60,16 @@ La razon principal que los condujo aexperimentar con proteus fue su capacidad pa
 
 Se importarán las librerías, se definirán los pins de salida y definiremos el significado de las variables. Esto se hará para las dos clases, la alarma de incendios y el sistema de riego automático. 
 
-
+![](Imagenes/Definiciones.png) ![](Imagenes/Definiciones1.png)
 #### Siste de alarma de incendios
 
 Se creará la clase y definiremos las funciones que vamos a utilizar en el programa principal.
 
+![](Imagenes/Clase1.png)
 
 En la línea número 55 se creará la función alarma que servirá para simular el incendio, en cuando debe prender la alarma. Se utilizará operaciones ya antes analizadas para dar dicho resulto de forma efectiva.
+
+![](Imagenes/Mensaje1.png)
 
 Se creará la función imprimir la cual dará la opción de apagar la alarma siempre y cuando se haya corregido los accidentes.
 
@@ -75,7 +78,12 @@ Se creará la función imprimir la cual dará la opción de apagar la alarma sie
 
 En el sistema de riego automático de igual manera se crearán las funciones necesarias.
 
+![](Imagenes/Clase2.png)
+![](Imagenes/Clase2.1.png)
+
 En esta clase cambiaremos unas variables, las negaremos ya que en la resolución por mapas de karnaugh las variables son negadas.
+
+![](Imagenes/Mensaje2.png)
 
 Después al igual que el sistema de alarma se creará el que hacer para apagar el sistema de riego y los focos que demuestres que se está realizando el riego.
 
@@ -83,7 +91,7 @@ Después al igual que el sistema de alarma se creará el que hacer para apagar e
 #### Programa principal
 En la función principal dejaremos a escoger cual sistema desea ejecutar, el de riego automático o la alarma de incendios, dependiendo cual escoja realizara lo correspondiente.
 
-
+![](Imagenes/Funcion%20principal.png)
 
 
 ### 8. CONCLUSIONES
