@@ -1,0 +1,91 @@
+#Importar modulos
+import RPi.GPIO as GPIO
+import time
+
+t=1
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(18, GPIO.OUT)
+GPIO.setup(19, GPIO.OUT)
+GPIO.setup(16, GPIO.OUT)
+GPIO.setup(13, GPIO.OUT)
+GPIO.setup(15, GPIO.OUT)
+
+#Definiciones
+#Puerto 3 = gas = x
+#Puerto 5 = humo = y
+#Puerto 7 = tem45 = z
+#Puerto 11 = tem60 = w
+
+#clase
+class Alarma:
+  a=0
+  x=0
+  y=0
+  z=0
+  w=0
+  
+  def menu(self):
+    print("\nINFORMACIÓN")
+    print("3) Sensor de gas")
+    print("5) Sensor de humo")
+    print("7) Temperatura 45°")
+    print("11) Temperatura 60°")
+  
+  def gas(self):
+    x=0
+    if GPIO.input(3) == GPIO.HIGH:
+      x=1
+    return x
+  def humo(self):
+    y=0
+    if GPIO.input(5) == GPIO.HIGH:
+      y=1
+    return y
+  def tem45(self):
+    z=0
+    if GPIO.input(7) == GPIO.HIGH:
+      z=1
+    return z
+  def tem60(self):
+    w=0
+    if GPIO.input(11) == GPIO.HIGH:
+      w=1
+    return w
+  def incendio(self,x,y,z,w):
+    a = w + x*z + x*y + z*y
+    return a
+  
+  def imprimir(self,a):
+    print("\n\n********SE QUEMA********")
+    print("\n\nApagar Alarma pin 8")
+    print("Primero desactive los anteriores pins")
+   
+  def foco(self):
+    while (GPIO.input(8) != GPIO.HIGH):
+      GPIO.output(18, True)
+      GPIO.output(19, True)
+      GPIO.output(16, True)
+      GPIO.output(13, True)
+      GPIO.output(15, True)
+      time.sleep(0.5)
+      GPIO.output(18, False)
+      GPIO.output(19, False)
+      GPIO.output(16, False)
+      GPIO.output(13, False)
+      GPIO.output(15, False)
+      time.sleep(0.5)
+
+
+#Funcion principal
+alam=Alarma()
+alam.menu()
+while (t!=0):
+  gas=alam.gas()
+  humo=alam.humo()
+  tem45=alam.tem45()
+  tem60=alam.tem60()
+  si=alam.incendio(gas,humo,tem45,tem60)
+  if si >= 1:
+    alam.imprimir(si)
+    alam.foco()
