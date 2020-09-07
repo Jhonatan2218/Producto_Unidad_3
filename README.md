@@ -42,6 +42,10 @@ La Raspberry Pi es una computadora en una sola tarjeta (Board Computer) creada p
 #### Puertos Virtuales GPIO.
 
 General Purpose Input Output (GPIO) es un sistema de entrada y salida de propósito general, es decir, consta de una serie de pines o conexiones que se pueden usar como entradas o salidas para múltiples usos. Estos pines están incluidos en todos los modelos de Raspberry Pi, aunque con diferencias. GPIO mientras que a partir de la versión 2 de Raspberry Pi el número de pines aumentó a 40. Sin embargo, la compatibilidad es total, puesto que los 26 primeros pines mantienen su función original. Los pines GPIO tienen funciones específicas (aunque algunos comparten funciones) y se pueden agrupar de la siguiente manera.
+### Simulador Proteus
+
+Es un sistema completo de diseño electronico que combina un avanzado programa de captura de esquemas, un sistema desimulacion mixto (analogico y digital) basado en Spice, y un programa para disposicion de componentes en placas de circuito impreso y auto-ruteado. Se trata de un software comercial creado por Labcenter Electronics, caracterizado por su potencia y facilidad de uso.
+La razon principal que los condujo aexperimentar con proteus fue su capacidad para simular circuitos basados en microcontroladores, con toda la electronica que rodea a estos diseños(chips,LEDs,Teclados,Displays LCD,terminales RS-232,etc), y hacerlo en tiempo real, de forma interactiva, y a partir del fichero ejecutable creado por cualquier ensamblador o compilador. Dicho lo anterior, ya no resulta sorprendente que Proteus tambien pueda simular diseños que incorporen PLDs y/o memorias ROM o RAM, y que para ello, utilice como entrada los ficheros  JEDEC, BIN o HEX genrados por cualquier herramienta de software 
 
 ### 5. DIAGRAMAS
 
