@@ -85,9 +85,13 @@ En la función principal dejaremos a escoger cual sistema desea ejecutar, el de 
 
 ### 8. CONCLUSIONES
 
+•	Existe un sinnúmero de herramientas y aplicaciones que permiten previsualizar y simular nuestros proyectos durante todo el proceso de desarrollo, estas en su mayoría requieren conocimientos básicos en el área de la programación y la electrónica ofreciendo un entorno interactivo mediante el cual se puede dar rienda suelta a la imaginación y creatividad.
 
 ### 9. RECOMENDACIONES
 
+•	Al momento de realizar el salto para implementar de forma física nuestros proyectos debemos respetar los estándares eléctricos y revisar las fichas técnicas de los dispositivos que se van a utilizar, pues los simuladores y las herramientas en línea no siempre consideran las variables físicas que intervienen en este proceso. De esta manera podemos evitar causar daño a nuestros dispositivos o a nosotros mismos a causa del uso incorrecto de estos.
+
+•	Mantener en practica el uso del paradigma de la programación orientada a objetos, ya que hoy en día esta es la forma más habitual y eficiente mediante la cual podemos controlar hardware por medio de un lenguaje de alto nivel. 
 
 ### 10. CRONOGRAMA
 
