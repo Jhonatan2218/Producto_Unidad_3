@@ -11,6 +11,11 @@ GPIO.setup(16, GPIO.OUT)
 GPIO.setup(13, GPIO.OUT)
 GPIO.setup(15, GPIO.OUT)
 
+def menut():
+  print("***BIENVENIDO***")
+  print("**Selecciones el pin 10 para alarama de incendios**")
+  print("**Selecciones el pin 12 para circuito de riego automatico**")
+
 #Definiciones
 #Puerto 3 = gas = x
 #Puerto 5 = humo = y
@@ -156,9 +161,7 @@ class Bomba:
 #Funcion principal
 alam=Alarma()
 riego=Bomba()
-print("***BIENVENIDO***")
-print("**Selecciones el pin 10 para alarama de incendios**")
-print("**Selecciones el pin 12 para circuito de riego automatico**")
+menut()
 while (t!=0):
   q=1
   if((GPIO.input(10) == GPIO.HIGH)):
@@ -173,6 +176,8 @@ while (t!=0):
         alam.imprimir(si)
         alam.foco()
         q=0
+        if GPIO.input(10) != GPIO.HIGH:
+          menut()
   if((GPIO.input(12) == GPIO.HIGH)):
     riego.menu()
     while (q!=0):
@@ -185,3 +190,5 @@ while (t!=0):
         riego.imprimir(si)
         riego.foco()
         q=0
+        if GPIO.input(10) != GPIO.HIGH:
+          menut()
