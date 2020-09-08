@@ -190,5 +190,5 @@ while (t!=0):
         riego.imprimir(si)
         riego.foco()
         q=0
-        if GPIO.input(10) != GPIO.HIGH:
+        if GPIO.input(12) != GPIO.HIGH:
           menut()
