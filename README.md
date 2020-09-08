@@ -54,7 +54,8 @@ La razon principal que los condujo aexperimentar con proteus fue su capacidad pa
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/protoboard.png?raw=true)
 
 ### 6. MAPA DE VARIABLES
-
+![](Imagenes/Mapa%20de%20variables-Python1.png)
+![](Imagenes/Mapa%20de%20variables-Python2.png)
 
 ### 7. EXPLICACIÓN DEL CÓDIGO FUENTE
 
@@ -105,7 +106,7 @@ En la función principal dejaremos a escoger cual sistema desea ejecutar, el de 
 •	Mantener en practica el uso del paradigma de la programación orientada a objetos, ya que hoy en día esta es la forma más habitual y eficiente mediante la cual podemos controlar hardware por medio de un lenguaje de alto nivel. 
 
 ### 10. CRONOGRAMA
-
+![](Imagenes/Cronograma.png)
 
 ### 11. BIBLIOGRAFÍA
 
