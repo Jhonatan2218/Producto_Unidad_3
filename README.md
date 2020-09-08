@@ -48,6 +48,7 @@ Es un sistema completo de diseño electronico que combina un avanzado programa d
 La razon principal que los condujo aexperimentar con proteus fue su capacidad para simular circuitos basados en microcontroladores, con toda la electronica que rodea a estos diseños(chips,LEDs,Teclados,Displays LCD,terminales RS-232,etc), y hacerlo en tiempo real, de forma interactiva, y a partir del fichero ejecutable creado por cualquier ensamblador o compilador. Dicho lo anterior, ya no resulta sorprendente que Proteus tambien pueda simular diseños que incorporen PLDs y/o memorias ROM o RAM, y que para ello, utilice como entrada los ficheros  JEDEC, BIN o HEX genrados por cualquier herramienta de software 
 
 ### 5. DIAGRAMAS
+Sistema de riego automatico
 
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/analisis.png?raw=true)
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/arqui%20proteus.png?raw=true)
