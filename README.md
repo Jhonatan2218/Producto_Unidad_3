@@ -54,7 +54,7 @@ La razon principal que los condujo aexperimentar con proteus fue su capacidad pa
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/arqui%20proteus.png?raw=true)
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/protoboard.png?raw=true)
 
-#### Alarma para incendios.
+#### Alarma para incendios
 
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/analisis%202.png?raw=true)
 ![](https://github.com/Jhonatan2218/Producto_Unidad_3/blob/master/Imagenes/Arqui%202.png?raw=true)
