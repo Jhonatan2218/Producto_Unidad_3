@@ -97,6 +97,5 @@ while (t!=0):
   seco=riego.seco()
   si=riego.agua(vacio,dia,verano,seco)
   if si >= 1:
-  riego.imprimir(si)
-  riego.foco()
-     
+    riego.imprimir(si)
+    riego.foco()
