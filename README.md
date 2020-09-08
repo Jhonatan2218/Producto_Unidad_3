@@ -117,4 +117,8 @@ En la función principal dejaremos a escoger cual sistema desea ejecutar, el de 
 
 
 ### 12. ANEXOS
+#### Manual de Usuario
+
+![](Anexos/Manual%20de%20Usuario%20-%20Creat%20With%20Code.jpeg)
+![](Anexos/Manual%20de%20Usuario%20-%20Creat%20With%20Code2.jpeg)
 
